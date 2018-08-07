@@ -167,7 +167,7 @@ For accessing AndroidManifest you have to build an empty project:
 ti build -p android -b
 ```
 Now you can add the AndroidManifest.xml from folder `build/intermediates/manifests/aapt/AndroidManifest.xml`
-```
+
 After this preparations  you can add the facets to project:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/FacetList.png" width=900 />
