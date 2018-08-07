@@ -3,7 +3,7 @@
  
 Objectiv of this receipt is to expalinehow you can develope Titanium modules inside Android Studio. 
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Goal.png" width=900 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Goal.png" width=800 />
 
 This tutorial is based on the instructions from [drauggres](https://github.com/drauggres) via the [Titanium Slack Community](http://tislack.org), thank you!!
 
