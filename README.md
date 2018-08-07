@@ -144,6 +144,8 @@ And install the needed SDK etc:
 
 Here you have to select (????)
 
+If I open an existing project and point to our `test` - folder, then `Nothing to show` ...
+
 =======
 
 1. Select proper `Project SDK`
