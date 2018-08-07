@@ -130,11 +130,11 @@ This command creates a folder `test` with some subfolders.
 
 After [downloading from here](https://developer.android.com/studio/install) you can install the dmg.
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Install.png" width=700 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Install.png" width=500 />
 
 And install the needed SDK etc:
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Components.png" width=700 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Components.png" width=500 />
 
 
 
@@ -144,7 +144,9 @@ And install the needed SDK etc:
 
 Here you have to select (????)
 
-If I open an existing project and point to our `test` - folder, then `Nothing to show` ...
+If I open an existing project and point to our `test` - folder, then `Nothing to show` ... 
+
+Ok, next we add the SDK to project settings
 
 =======
 
