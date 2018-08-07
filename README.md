@@ -1,7 +1,7 @@
 
 # Use Android Studio to develop native Titanium Android Modules
  
-Objectiv of this receipt is to expalinehow you can develope Titanium modules inside Android Studio. 
+Objectiv of this receipt is to explaine how you can develope Titanium modules inside Android Studio. 
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Goal.png" width=800 />
 
