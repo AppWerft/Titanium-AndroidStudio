@@ -190,7 +190,7 @@ In the end you will see:
 
 And now you can edit the module:
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=600 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=800 />
 
 Hans Knöchel [15 days ago]
 we should update the guides for android studio as well!
