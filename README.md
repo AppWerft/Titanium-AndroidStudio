@@ -188,6 +188,10 @@ In the end you will see:
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries2.png" width=600 />
 
 
+And now you can edit the module:
+
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=600 />
+
 Hans Knöchel [15 days ago]
 we should update the guides for android studio as well!
 

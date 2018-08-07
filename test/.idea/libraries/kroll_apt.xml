@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="kroll-apt">
+    <CLASSES>
+      <root url="jar:///Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-apt.jar!/" />
+      <root url="jar:///Library/Application Support/Titanium/mobilesdk/osx/6.0.1.GA/android/kroll-common.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
