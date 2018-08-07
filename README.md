@@ -1,6 +1,6 @@
 
 # Use Android Studio to develop native Titanium Android Modules
-
+ 
 This tutorial is based on the instructions from [drauggres](https://github.com/drauggres) via the [Titanium Slack Community](http://tislack.org), thank you!!
 
 ### Create a new Project
@@ -150,13 +150,15 @@ First you have to create some folders:
 cd <module_path>
 mkdir platform/android
 mkdir platform/android/res
-mkdir build
-mkdir build/intermediates
-mkdir build/intermediates/manifests
-mkdir build/intermediates/manifests/aapt
-touch build/intermediates/manifests/aapt/AndroidManifest.xml
 ```
-After this preparation, you can add the build files to project:
+For accessing AndroidManifest you have to build an empty project:
+
+```
+ti build -p android -b
+```
+Now you can add the AndroidManifest.xml from folder `build/intermediates/manifests/aapt/AndroidManifest.xml`
+
+After this preparations  you can add the facets to project:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/FacetList.png" width=900 />
 
@@ -181,6 +183,18 @@ And now you can edit the module:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=800 />
 
+
 ### Notes
 
 See the `test/` directory for details!
+
+### Potential pitfalls
+
+```
+Unregistered VCS root detected
+The directory /Users/fuerst/Desktop/AndroidStudioTitanium is under Git, but is not registered in the Settings.
+```
+```
+Can't start Git: /usr/local/bin/git
+The path to Git executable is probably not valid. 
+```
