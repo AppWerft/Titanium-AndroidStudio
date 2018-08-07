@@ -119,11 +119,11 @@ Global Options:
 
 </details>
 
+
 This command creates a folder `test` with some subfolders.
 
-https://wiki.appcelerator.org/display/guides2/Android+Module+Development+Guide
 
-
+## Next steps
 
 
 
