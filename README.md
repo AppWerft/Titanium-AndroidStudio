@@ -160,11 +160,13 @@ First you have to create some folders:
 cd <module_path>
 mkdir platform/android
 mkdir platform/android/res
-mkdir build
-mkdir build/intermediates
-mkdir build/intermediates/manifests
-mkdir build/intermediates/manifests/aapt
-touch build/intermediates/manifests/aapt/AndroidManifest.xml
+```
+For accessing AndroidManifest you have to build an empty project:
+
+```
+ti build -p android -b
+```
+Now you can add the AndroidManifest.xml from folder `build/intermediates/manifests/aapt/AndroidManifest.xml`
 ```
 After this preparations  you can add the facets to project:
 
@@ -191,3 +193,14 @@ In the end you will see:
 And now you can edit the module:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=800 />
+
+### Potential pitfalls
+
+```
+Unregistered VCS root detected
+The directory /Users/fuerst/Desktop/AndroidStudioTitanium is under Git, but is not registered in the Settings.
+```
+```
+Can't start Git: /usr/local/bin/git
+The path to Git executable is probably not valid. 
+```
