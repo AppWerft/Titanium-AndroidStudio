@@ -167,7 +167,7 @@ mkdir build/intermediates/manifests/aapt
 touch build/intermediates/manifests/aapt/AndroidManifest.xml
 ```
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/FacetList.png" width=700 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/FacetList.png" width=900 />
 
 -  Manifest: `<module_path>/android/build/intermediates/manifests/aapt/AndroidManifest.xml`
 - Resources: `<module_path>/android/platform/android/res`
