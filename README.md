@@ -1,7 +1,10 @@
 # Usage of Android Studio for Android module development
 
 Сергей Волков at 2018-07-24 proposed in our [slack channnel](https://ti-slack.slack.com/) a procedure for usage of Android Studio for Android Titanium module development. 
+
+<details><summary>Screenshot of Slack dialog</summary>
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%92%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2.png" width=700 />
+</details>
 
 This repo shows en detail how to.
 
