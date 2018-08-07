@@ -166,6 +166,7 @@ mkdir build/intermediates/manifests
 mkdir build/intermediates/manifests/aapt
 touch build/intermediates/manifests/aapt/AndroidManifest.xml
 ```
+After this preparations  you can add the facets to project:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/FacetList.png" width=900 />
 
