@@ -1,12 +1,20 @@
 # Usage of Android Studio for Android module development
 
-Сергей Волков at 2018-07-24 proposed a procedure for usage of Android Studio for Android Titanium module development.
-   
-*I use Android Studio for module development, all debugging tools work fine.*
+Сергей Волков at 2018-07-24 proposed in our [slack channnel](https://ti-slack.slack.com/) a procedure for usage of Android Studio for Android Titanium module development. This repo shows en detail how to.
 
-*You should build your module, then setup "Project Structure":*
+## Creation of project
+Example:
+```
+ti create --type module --name test --platform android --id com.company.test --workspace-dir ./Test 
+```
 
-<details><summary>CLI creating of a new module project (manual)</summary>
+Or in short form:
+```
+ti create -t module -n test -p android --id com.company.test -d ./Test 
+```
+
+
+<details><summary>Full syntax of ti create</summary>
 
 ```
 fuerst$ ti create -help
@@ -75,16 +83,6 @@ Global Options:
 
 ```
 </details>
-
-Example:
-```
-ti create --type module --name test --platform android --id com.company.test --workspace-dir ./Testproject 
-```
-
-Or in short form:
-```
-ti create -t module -n test -p android --id com.company.test -d ./Testproject 
-```
 
 https://wiki.appcelerator.org/display/guides2/Android+Module+Development+Guide
 
