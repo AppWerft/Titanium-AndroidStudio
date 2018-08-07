@@ -1,0 +1,24 @@
+
+2018-08-07 13:39:42
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.12.6
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 4.6.0
+  npm Version                 = 2.15.9
+
+Titanium CLI
+  CLI Version                 = 5.0.11
+
+Titanium SDK
+  SDK Version                 = 5.5.1.GA
+  SDK Path                    = /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA
+  Target Platform             = android
+
+Command
+  /usr/local/bin/node /usr/local/bin/ti build -b -p android

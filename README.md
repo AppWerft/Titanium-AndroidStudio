@@ -140,6 +140,8 @@ And install the needed SDK etc:
 
 ## Starting Android Studio
 
+### Add Project SDK
+
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Studio.png" width=400 />
 
 If I open an existing project and point to our `test` - folder, then Nothing to show on left slider.  
@@ -150,16 +152,31 @@ Menu: **File/Projectstructure**
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/SDK.png" width=500 />
 
-=======
+### Add Android facet
 
-1. Select proper `Project SDK`
-2. Add `Android` facet:
+First you have to create some folders:
+
+```
+cd <module_path>
+mkdir platform/android
+mkdir platform/android/res
+mkdir build
+mkdir build/intermediates
+mkdir build/intermediates/manifests
+mkdir build/intermediates/manifests/aapt
+touch build/intermediates/manifests/aapt/AndroidManifest.xml
+```
+
 -  Manifest: `<module_path>/android/build/intermediates/manifests/aapt/AndroidManifest.xml`
 - Resources: `<module_path>/android/platform/android/res`
 - Assets: `<module_path>/android/assets`
 - Native libs: `<module_path>/android/libs`
+
 Also uncheck `Generate sources automatically`
-3. Add Titanium libraries (`titanium.jar`, `kroll-common.jar`, `kroll-apt.jar`) (edited)
+
+### Add Titanium libraries
+
+Add Titanium libraries (`titanium.jar`, `kroll-common.jar`, `kroll-apt.jar`) (edited)
  
 
 
