@@ -27,8 +27,7 @@ public class TestModule extends KrollModule
 	// You can define constants with @Kroll.constant, for example:
 	// @Kroll.constant public static final String EXTERNAL_NAME = value;
 
-	public TestModule()
-	{
+	public TestModule() {
 		super();
 	}
 

@@ -183,6 +183,9 @@ And now you can edit the module:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=800 />
 
+## Configuring Source root
+
+Mark `src` directory (right click -> `Mark Directory As`)  as `Sources Root`.
 
 ### Notes
 
