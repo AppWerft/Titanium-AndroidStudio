@@ -9,6 +9,8 @@
 This repo shows en detail how to.
 
 ## Creation of project
+<img src="https://www.cloudcms.com/images/quickstarts/titanium/titanium.206f8815.png" width=100 />
+
 Example:
 ```
 ti create --type module --name test --platform android --id com.company.test --workspace-dir ./ 
