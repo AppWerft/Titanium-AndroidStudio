@@ -124,12 +124,22 @@ Global Options:
 
 This command creates a folder `test` with some subfolders.
 
-
-## Starting Android Studio
+## Insalling Android Studio
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/1200px-Android_Studio_icon.svg.png" width= 90 />
 
-[Here](https://developer.android.com/studio/install) you can download the Studio.
+After [downloading from here](https://developer.android.com/studio/install) you can install the dmg.
+
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Install.png" width=700 />
+
+And install the needed SDK etc:
+
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Components.png" width=700 />
+
+
+## Starting Android Studio
+
+
 
 
 
