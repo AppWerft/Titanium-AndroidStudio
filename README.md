@@ -124,7 +124,7 @@ Global Options:
 
 This command creates a folder `test` with some subfolders.
 
-## Insalling Android Studio
+## Installing Android Studio
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/1200px-Android_Studio_icon.svg.png" width= 90 />
 
@@ -137,11 +137,14 @@ And install the needed SDK etc:
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Components.png" width=700 />
 
 
+
 ## Starting Android Studio
 
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Studio.png" width=700 />
 
+Here you have to select (????)
 
-
+=======
 
 1. Select proper `Project SDK`
 2. Add `Android` facet:
