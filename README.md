@@ -23,27 +23,27 @@ ti create -t module -n test -p android --id com.company.test -d ./
 
 ```
 [INFO]  Creating module project
-[INFO]  Template directory: /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default/template/LICENSE => /Users/fuerst/Desktop/AndroidStudioTitanium/test/LICENSE
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default/template/README.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/README
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default/template/assets/README.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/assets/README
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default/template/documentation/index.md.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/documentation/index.md
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default/template/example/app.js.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/example/app.js
+[INFO]  Template directory: /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/templates/module/default
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/templates/module/default/template/LICENSE => /Users/fuerst/Desktop/AndroidStudioTitanium/test/LICENSE
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/templates/module/default/template/README.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/README
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/templates/module/default/template/assets/README.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/assets/README
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/templates/module/default/template/documentation/index.md.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/documentation/index.md
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/templates/module/default/template/example/app.js.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/example/app.js
 [DEBUG] Detecting Android environment...
 [INFO]  Copying android platform resources
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/.classpath.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.classpath
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/.project.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.project
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/.settings/org.eclipse.jdt.apt.core.prefs.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.settings/org.eclipse.jdt.apt.core.prefs
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/.settings/org.eclipse.jdt.core.prefs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.settings/org.eclipse.jdt.core.prefs
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/Resources/README.md => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/Resources/README.md
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/build.properties.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/build.properties
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/build.xml.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/build.xml
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/lib/README => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/lib/README
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/manifest.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/manifest
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/platform/README.md => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/platform/README.md
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/src/{{ModuleIdAsFolder}}/ExampleProxy.java.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/src/com/company/test/ExampleProxy.java
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/src/{{ModuleIdAsFolder}}/{{ModuleNameCamel}}Module.java.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/src/com/company/test/TestModule.java
-[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/timodule.xml => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/timodule.xml
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/.classpath.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.classpath
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/.project.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.project
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/.settings/org.eclipse.jdt.apt.core.prefs.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.settings/org.eclipse.jdt.apt.core.prefs
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/.settings/org.eclipse.jdt.core.prefs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/.settings/org.eclipse.jdt.core.prefs
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/Resources/README.md => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/Resources/README.md
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/build.properties.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/build.properties
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/build.xml.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/build.xml
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/lib/README => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/lib/README
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/manifest.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/manifest
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/platform/README.md => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/platform/README.md
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/src/{{ModuleIdAsFolder}}/ExampleProxy.java.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/src/com/company/test/ExampleProxy.java
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/src/{{ModuleIdAsFolder}}/{{ModuleNameCamel}}Module.java.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/src/com/company/test/TestModule.java
+[DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/timodule.xml => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/timodule.xml
 [INFO]  Project created successfully in 1s 318ms
 ```
 
@@ -51,7 +51,7 @@ ti create -t module -n test -p android --id com.company.test -d ./
 
 ```
 user$ ti create -help
-Titanium Command-Line Interface, CLI version 5.0.11, Titanium SDK version 5.5.1.GA
+Titanium Command-Line Interface, CLI version 5.0.11, Titanium SDK version 7.0.1.GA
 Copyright (c) 2012-2015, Appcelerator, Inc.  All Rights Reserved.
 
 Please report bugs to http://jira.appcelerator.org/
