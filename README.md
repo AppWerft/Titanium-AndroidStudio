@@ -123,7 +123,11 @@ Global Options:
 This command creates a folder `test` with some subfolders.
 
 
-## Next steps
+## Starting Android Studio
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/1200px-Android_Studio_icon.svg.png" width= 90 />
+
+[Here](https://developer.android.com/studio/install) you can download the Studio.
 
 
 
