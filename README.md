@@ -179,7 +179,7 @@ Also uncheck `Generate sources automatically`
 
 ### Add Titanium libraries
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries.png" width=400 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries.png" width=300 />
 
 Add Titanium libraries (`titanium.jar`, `kroll-common.jar`, `kroll-apt.jar`) (edited)
  
