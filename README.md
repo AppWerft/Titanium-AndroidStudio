@@ -185,7 +185,7 @@ Add Titanium libraries (`titanium.jar`, `kroll-common.jar`, `kroll-apt.jar`) (ed
 
 In the end you will see:
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries2.png" width=300 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries2.png" width=600 />
 
 
 Hans Knöchel [15 days ago]
