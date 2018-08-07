@@ -140,7 +140,7 @@ And install the needed SDK etc:
 
 ## Starting Android Studio
 
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Studio.png" width=700 />
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Studio.png" width=400 />
 
 Here you have to select (????)
 
