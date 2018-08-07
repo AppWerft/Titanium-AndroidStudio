@@ -79,9 +79,8 @@ Global Options:
    -s, --sdk <version>    Titanium SDK version to use to bootstrap SDK-level commands and parse the
                           tiapp.xml; actual Titanium SDK used determined by <sdk-version> in the
                           tiapp.xml  [default: latest]
- 
-
 ```
+
 </details>
 
 https://wiki.appcelerator.org/display/guides2/Android+Module+Development+Guide
