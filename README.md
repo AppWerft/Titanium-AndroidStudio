@@ -1,6 +1,10 @@
 
 # Use Android Studio to develop native Titanium Android Modules
  
+You as a developer can build and edit your [Android modules](https://wiki.appcelerator.org/display/guides2/Android+Module+Quick+Start) inside the Titanium Studio. For this you have to add some (JDT-) plugins to Studio. In last time this makes trouble. First reason: the [receipt](https://wiki.appcelerator.org/display/guides2/Installing+the+Java+Development+Tools) is from March 2016 and works with Luna. Luna is released at Juni 2014, next version Mars is from Juni 2015. Project seems to be dead. Chinese would say: 金蟬脱殼 (Slough off the cicada's golden shell).
+
+An alternative way is to use the alive Android Studio.
+ 
 Objectiv of this receipt is to explaine how you can develope Titanium modules inside Android Studio. 
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Goal.png" width=800 />
