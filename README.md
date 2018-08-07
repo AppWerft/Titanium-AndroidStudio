@@ -169,6 +169,8 @@ After this preparations  you can add the facets to project:
 
 **Important**: Also uncheck `Generate sources automatically`
 
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/NoSource.png" width=800 />
+
 ### Add Titanium libraries
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries.png" width=300 />
