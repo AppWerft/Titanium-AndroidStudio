@@ -1,14 +1,10 @@
-# Usage of Android Studio for Android module development
 
-Сергей Волков at 2018-07-24 proposed in our [slack channnel](https://ti-slack.slack.com/) a procedure for usage of Android Studio for Android Titanium module development. 
+# Use Android Studio to develop native Titanium Android Modules
+ 
+This tutorial is based on the instructions from [drauggres](https://github.com/drauggres) via the [Titanium Slack Community](http://tislack.org), thank you!!
 
-<details><summary>Screenshot of Slack dialog</summary>
-<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%92%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2.png" width=700 />
-</details>
+### Create a new Project
 
-This repo shows en detail how to.
-
-## Creation of project
 <img src="https://www.cloudcms.com/images/quickstarts/titanium/titanium.206f8815.png" width=100 />
 
 Example:
@@ -16,16 +12,16 @@ Example:
 ti create --type module --name test --platform android --id com.company.test --workspace-dir ./ 
 ```
 
-Or in short form:
+Or simplified:
 ```
 ti create -t module -n test -p android --id com.company.test -d ./
 ```
 
-<details><summary>Output sample</summary>
+> Note: The same goes for the Appc-CLI and `appc new [args]`.
+
+### Sample Output
 
 ```
-Please report bugs to http://jira.appcelerator.org/
-
 [INFO]  Creating module project
 [INFO]  Template directory: /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default
 [DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/templates/module/default/template/LICENSE => /Users/fuerst/Desktop/AndroidStudioTitanium/test/LICENSE
@@ -50,12 +46,11 @@ Please report bugs to http://jira.appcelerator.org/
 [DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/timodule.xml => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/timodule.xml
 [INFO]  Project created successfully in 1s 318ms
 ```
-</details>
 
-<details><summary>Full syntax of ti create</summary>
+### Overview: `ti create`
 
 ```
-fuerst$ ti create -help
+user$ ti create -help
 Titanium Command-Line Interface, CLI version 5.0.11, Titanium SDK version 5.5.1.GA
 Copyright (c) 2012-2015, Appcelerator, Inc.  All Rights Reserved.
 
@@ -119,24 +114,19 @@ Global Options:
                           tiapp.xml  [default: latest]
 ```
 
-</details>
-
-
-This command creates a folder `test` with some subfolders.
+This command creates a folder `test` with it's subfolders.
 
 ## Installing Android Studio
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/1200px-Android_Studio_icon.svg.png" width= 90 />
 
-After [downloading from here](https://developer.android.com/studio/install) you can install the dmg.
+After [downloading](https://developer.android.com/studio/install) Android Studio you can install the dmg.
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Install.png" width=500 />
 
-And install the needed SDK etc:
+And install the required SDK:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Components.png" width=500 />
-
-
 
 ## Starting Android Studio
 
@@ -144,15 +134,15 @@ And install the needed SDK etc:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Studio.png" width=400 />
 
-If I open an existing project and point to our `test` - folder, then Nothing to show on left slider.  
+If you open an existing project and point to our `test` - folder, then there is nothing to show on the left side bar.  
 
-Ok, next we add the SDK to project settings by calling this dialog 
+Ok, next we add the SDK to project settings by calling this dialog:
 
 Menu: **File/Projectstructure**
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/SDK.png" width=500 />
 
-### Add Android facet
+### Add Android Build Files
 
 First you have to create some folders:
 
@@ -172,12 +162,12 @@ After this preparations  you can add the facets to project:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/FacetList.png" width=900 />
 
--  Manifest: `<module_path>/android/build/intermediates/manifests/aapt/AndroidManifest.xml`
+- Manifest: `<module_path>/android/build/intermediates/manifests/aapt/AndroidManifest.xml`
 - Resources: `<module_path>/android/platform/android/res`
 - Assets: `<module_path>/android/assets`
 - Native libs: `<module_path>/android/libs`
 
-Also uncheck `Generate sources automatically`
+**Important**: Also uncheck `Generate sources automatically`
 
 ### Add Titanium libraries
 
@@ -189,10 +179,14 @@ In the end you will see:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries2.png" width=600 />
 
-
 And now you can edit the module:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=800 />
+
+
+### Notes
+
+See the `test/` directory for details!
 
 ### Potential pitfalls
 
