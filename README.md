@@ -20,6 +20,7 @@ ti create -t module -n test -p android --id com.company.test -d ./
 ```
 
 <details><summary>Output sample</summary>
+
 ```
 Please report bugs to http://jira.appcelerator.org/
 
@@ -46,7 +47,6 @@ Please report bugs to http://jira.appcelerator.org/
 [DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/src/{{ModuleIdAsFolder}}/{{ModuleNameCamel}}Module.java.ejs => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/src/com/company/test/TestModule.java
 [DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/5.5.1.GA/android/templates/module/default/template/android/timodule.xml => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/timodule.xml
 [INFO]  Project created successfully in 1s 318ms
-
 ```
 </details>
 
@@ -118,6 +118,8 @@ Global Options:
 ```
 
 </details>
+
+This command creates a folder `test` with some subfolders.
 
 https://wiki.appcelerator.org/display/guides2/Android+Module+Development+Guide
 
