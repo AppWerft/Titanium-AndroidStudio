@@ -191,31 +191,3 @@ In the end you will see:
 And now you can edit the module:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=800 />
-
-Hans Knöchel [15 days ago]
-we should update the guides for android studio as well!
-
-
-Antonio [15 days ago]
-thank you @Sergey Volkov! I will try to follow your instructions. Do you mean by "you should build your module" that I have to do that manually from the CLI with "appc run" anyway? So I use Android Studio to test the app WHERE I will include my native module? I was wondering if I could use Android Studio to edit the code of the module itself
-
-
-Hans Knöchel [14 days ago]
-ti build -p --build-only
-
-
-Sergey Volkov [14 days ago]
->Do you mean by "you should build your module" that I have to do that manually from the CLI with "appc run" anyway?
-Yes, `ti build -p android --build-only`
->So I use Android Studio to test the app WHERE I will include my native module?
-Correct. You can't run module without app.
->I was wondering if I could use Android Studio to edit the code of the module itself
-Why not? Don't forget (3) from comment above.
-
-
-Jorge Macías [14 days ago]
-@Sergey Volkov That deserves to have a post blog where you detail it. It could be super useful for Ti community :smile:
-
-cc: @hans
-
-Congrats (edited)
