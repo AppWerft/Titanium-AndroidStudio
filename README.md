@@ -145,6 +145,7 @@ And install the needed SDK etc:
 If I open an existing project and point to our `test` - folder, then Nothing to show on left slider.  
 
 Ok, next we add the SDK to project settings:
+
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/SDK.png" width=500 />
 
 =======
