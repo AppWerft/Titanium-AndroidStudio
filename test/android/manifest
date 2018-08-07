@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: test
+author: Rainer Schleevoigt
+license: Specify your license
+copyright: Copyright (c) 2018 by Hamburger Appwerft
+
+# these should not be edited
+name: test
+moduleid: com.company.test
+guid: 37b89c51-6858-43bb-9d2d-8d3b0c46c1b2
+platform: android
+minsdk: 5.5.1.GA
