@@ -171,7 +171,15 @@ After this preparation, you can add the build files to project:
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries.png" width=300 />
 
-Finally, add some common Titanium libraries (`titanium.jar`, `kroll-common.jar`, `kroll-apt.jar`)
+Add Titanium libraries (`titanium.jar`, `kroll-common.jar`, `kroll-apt.jar`) (edited)
+
+In the end you will see:
+
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Libraries2.png" width=600 />
+
+And now you can edit the module:
+
+<img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Full.png" width=800 />
 
 ### Notes
 
