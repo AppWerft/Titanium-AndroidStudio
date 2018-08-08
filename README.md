@@ -13,7 +13,7 @@ Objectiv of this receipt is to explaine how you can develope Titanium modules wi
 
 This tutorial is based on the instructions from [drauggres](https://github.com/drauggres) via the [Titanium Slack Community](http://tislack.org), thank you!!
 
-
+If you have always a working module you can directly continue with [Starting Android Studio](#starting-android-studio)
 
 ### Create a new Project
 
