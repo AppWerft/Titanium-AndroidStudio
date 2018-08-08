@@ -31,6 +31,9 @@ ti create -t module -n test -p android --id com.company.test -d ./
 
 > Note: The same goes for the Appc-CLI and `appc new [args]`.
 
+This command creates a folder `test` with it's subfolders.
+
+
 <details><summary>Sample Output</summary>
 
 ```
@@ -128,7 +131,6 @@ Global Options:
 ```
 </details>
 
-This command creates a folder `test` with it's subfolders.
 
 ## Installing Android Studio
 
