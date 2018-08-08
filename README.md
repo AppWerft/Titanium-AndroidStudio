@@ -1,11 +1,13 @@
 
 # Use Android Studio to develop native Titanium Android Modules
  
-You as a developer can build and edit your [Android modules](https://wiki.appcelerator.org/display/guides2/Android+Module+Quick+Start) inside the Titanium Studio. For this you have to add some (JDT-) plugins to Studio. In last time this makes trouble. First reason: the [receipt](https://wiki.appcelerator.org/display/guides2/Installing+the+Java+Development+Tools) is from March 2016 and works with Luna. Luna is released at Juni 2014, next version Mars is from Juni 2015. Project seems to be dead. Chinese would say: 金蟬脱殼 (Slough off the cicada's golden shell).
+You as a developer can build and edit your [Android modules](https://wiki.appcelerator.org/display/guides2/Android+Module+Quick+Start) inside the Titanium Studio. For this you have to add some (JDT-) plugins to Studio. In last time this makes trouble. 
+
+First reason: the [receipt](https://wiki.appcelerator.org/display/guides2/Installing+the+Java+Development+Tools) is from March 2016 and works with Luna. Luna is released at Juni 2014, next version Mars is from Juni 2015. Project seems to be dead. Chinese would say: 金蟬脱殼 (Slough off the cicada's golden shell).
 
 An alternative way is to use the alive Android Studio.
  
-Objectiv of this receipt is to explaine how you can develope Titanium modules inside Android Studio. 
+Objectiv of this receipt is to explaine how you can develope Titanium modules with Android Studio. 
 
 <img src="https://raw.githubusercontent.com/AppWerft/Titanium-AndroidStudio/master/screens/Goal.png" width=800 />
 
@@ -29,7 +31,7 @@ ti create -t module -n test -p android --id com.company.test -d ./
 
 > Note: The same goes for the Appc-CLI and `appc new [args]`.
 
-### Sample Output
+<details><summary>Sample Output</summary>
 
 ```
 [INFO]  Creating module project
@@ -56,8 +58,9 @@ ti create -t module -n test -p android --id com.company.test -d ./
 [DEBUG] Copying /Library/Application Support/Titanium/mobilesdk/osx/7.0.1.GA/android/templates/module/default/template/android/timodule.xml => /Users/fuerst/Desktop/AndroidStudioTitanium/test/android/timodule.xml
 [INFO]  Project created successfully in 1s 318ms
 ```
+</details>
 
-### Overview: `ti create`
+<details><summary>Overview: `ti create`</summary>
 
 ```
 user$ ti create -help
@@ -123,12 +126,11 @@ Global Options:
                           tiapp.xml; actual Titanium SDK used determined by <sdk-version> in the
                           tiapp.xml  [default: latest]
 ```
+</details>
 
 This command creates a folder `test` with it's subfolders.
 
 ## Installing Android Studio
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Android_Studio_icon.svg/1200px-Android_Studio_icon.svg.png" width= 90 />
 
 After [downloading](https://developer.android.com/studio/install) Android Studio you can install the dmg.
 
