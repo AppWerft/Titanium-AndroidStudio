@@ -215,7 +215,26 @@ See the `test/` directory for details!
 Unregistered VCS root detected
 The directory /Users/fuerst/Desktop/AndroidStudioTitanium is under Git, but is not registered in the Settings.
 ```
+In this case you have to enable git. 
 ```
 Can't start Git: /usr/local/bin/git
 The path to Git executable is probably not valid. 
 ```
+In this case you can find with `whereis git` and then you have to edit the path to i.e. `/usr/bin/git`.
+
+## Next steps/links
+
+If you only want create apps with javascript you have to sources howto work with ATOM:
+
+### [Tutorial from Miga](https://github.com/m1ga/titanium_with_atom)
+All what you need to create native apps with a lot of details.
+<img src="https://github.com/m1ga/titanium_with_atom/raw/master/images/main_view.png" />
+
+### [How to install Axway Appcelerator in combination with Atom](https://github.com/appcelerator/atom-appcelerator-titanium)	  
+
+dl;dr:
+
+- Install of ATOM
+- `apm install appcelerator-titanium`
+
+<img src="https://user-images.githubusercontent.com/10667698/42400977-8e552cde-8141-11e8-8696-1380eb9dd581.png" >
