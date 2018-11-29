@@ -238,3 +238,5 @@ dl;dr:
 - `apm install appcelerator-titanium`
 
 <img src="https://user-images.githubusercontent.com/10667698/42400977-8e552cde-8141-11e8-8696-1380eb9dd581.png" >
+
+https://github.com/drauggres/ti.gradle.fake
